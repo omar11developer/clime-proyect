@@ -1,0 +1,26 @@
+.container-all {
+  display: inline-block;
+  width: 100%;
+  padding-top: 60px;
+}
+.alert {
+  width: 40%;
+  position: relative;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .alert {
+    width: 80%;
+  }
+}
+@media (max-width: 766px) {
+  .alert {
+    width: 80%;
+  }
+}
+@media (max-width: 988px) {
+  .alert {
+    width: 80%;
+  }
+}

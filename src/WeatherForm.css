@@ -1,0 +1,39 @@
+.container-search{
+    width: 40%;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.container-search input{
+    width: 100%;
+    
+    
+}
+.container-search .container-icon{
+    position: absolute;
+    right: 20px;
+    top:8px;
+    color:gray;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+    .container-search{
+        width: 80%;
+       
+        
+    }
+}
+@media (max-width: 766px) {
+    .container-search{
+        width: 80%;
+       
+        
+    }
+}
+@media (max-width: 988px) {
+    .container-search{
+        width: 80%;
+       
+    }
+}
