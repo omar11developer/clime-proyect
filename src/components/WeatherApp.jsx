@@ -6,7 +6,7 @@ import Loading from "./Loading";
 
 const WeatherApp = () => {
     const [weather, setWeather]= useState(null);
-    const [alerta, setAlerta]= useState(null);
+
  
     useEffect(() => {
         
