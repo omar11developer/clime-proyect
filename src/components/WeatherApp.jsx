@@ -48,7 +48,7 @@ const WeatherApp = () => {
                <div className="container-all">
 
                <WeatherForm onChangeCity={handleChangeCity}/>
-               {weather ? <WeatherInfo weather={weather} alert={alerta} /> : <Loading/>  }
+               {weather ? <WeatherInfo weather={weather}  /> : <Loading/>  }
                 
                </div>
               
