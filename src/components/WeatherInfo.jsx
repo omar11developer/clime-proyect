@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState } from "react";
 import "../WeatherInfo.css";
 import {BsChevronDown, BsChevronUp} from 'react-icons/bs'
 
@@ -6,7 +6,7 @@ import {BsChevronDown, BsChevronUp} from 'react-icons/bs'
 
 const WeatherInfo = ({ weather}) => {
   const [moreinfo, setMoreinfo]= useState(false);
-  const info = document.getElementById('info')
+  
 
 
   
